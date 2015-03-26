@@ -1,3 +1,4 @@
+   
     This app is based on the game League of Legends.League of Legends is a very hot game.It has a lot of 
 game areas , you can play in different game area, but need game levels and equipment.When two people in 
 different game areas, but want to play in an game area,thus you need to borrow game account and ask others 
