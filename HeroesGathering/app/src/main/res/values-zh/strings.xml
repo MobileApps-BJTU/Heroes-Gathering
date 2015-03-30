@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">英雄聚集地</string>
+
+    <string name="action_settings">设置</string>
+    <string name="buttonGroups">群组</string>
+    <string name="buttonSearch">搜索</string>
+    <string name="buttonFriends">好友</string>
+    <string name="buttonMe">我</string>
+
+</resources>
