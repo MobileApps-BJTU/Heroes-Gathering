@@ -21,4 +21,13 @@
 
     <string name="messageTitle">信息</string>
     <string name="message">开发中...</string>
+
+    <string name="Name">昵称：小狗</string>
+    <string name="Healthy">健康度：等级2 </string>
+    <string name="Sign">个性签名：更强</string>
+
+    <string name="loan">借出记录</string>
+    <string name="myAccount">我的账号</string>
+    <string name="record">归还记录</string>
+    <string name="state">状态</string>
 </resources>

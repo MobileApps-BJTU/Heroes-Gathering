@@ -21,6 +21,11 @@ public class MainActivity extends ActionBarActivity
     private Button buttonFriends;
     private Button buttonMe;
 
+    private Button loanButton;
+    private Button myAccountButton;
+    private Button recordButton;
+    private Button stateButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +35,11 @@ public class MainActivity extends ActionBarActivity
         buttonSearch = (Button)findViewById(R.id.buttonSearch);
         buttonFriends = (Button)findViewById(R.id.buttonFriends);
         buttonMe = (Button)findViewById(R.id.buttonMe);
+
+        loanButton = (Button)findViewById(R.id.LoanButton);
+        myAccountButton = (Button)findViewById(R.id.MyAccountButton);
+        recordButton = (Button)findViewById(R.id.RecordButton);
+        stateButton = (Button)findViewById(R.id.StateButton);
 
         getFragmentManager()
                 .beginTransaction()
@@ -80,6 +90,49 @@ public class MainActivity extends ActionBarActivity
             }
         });
 
+        loanButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.fragment2, new LoanFragment())
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+
+        myAccountButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.fragment2, new MyAccountFragment())
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+
+        recordButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.fragment2, new RecordFragment())
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+
+        stateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.fragment2, new StateFragment())
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
     }
 
 

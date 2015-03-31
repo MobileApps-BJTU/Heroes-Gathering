@@ -20,4 +20,13 @@
 
     <string name="messageTitle">Message</string>
     <string name="message">Developing...</string>
+
+    <string name="Name">Name：Uzi </string>
+    <string name="Healthy">Healthy：LEVEL 2 </string>
+    <string name="Sign">Sign：Nice！ </string>
+
+    <string name="loan">Loan</string>
+    <string name="myAccount">My Account</string>
+    <string name="record">Record</string>
+    <string name="state">State</string>
 </resources>
