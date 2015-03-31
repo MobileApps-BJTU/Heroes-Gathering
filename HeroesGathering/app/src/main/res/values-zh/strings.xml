@@ -7,5 +7,9 @@
     <string name="buttonSearch">搜索</string>
     <string name="buttonFriends">好友</string>
     <string name="buttonMe">我</string>
+    <string name="Search">搜索</string>
+    <string name="Search1">选择大区</string>
+    <string name="Search2">选择段位</string>
+    <string name="Search3">自定义搜索</string>
 
 </resources>

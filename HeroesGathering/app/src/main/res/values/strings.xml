@@ -2,10 +2,14 @@
     <string name="app_name">HeroesGathering</string>
 
     <string name="action_settings">Settings</string>
-    <string name="buttonGroups">Groups</string>
+    <string name="buttonGroups">Group</string>
     <string name="buttonSearch">Search</string>
-    <string name="buttonFriends">Friends</string>
+    <string name="buttonFriends">Friend</string>
     <string name="buttonMe">Me</string>
+    <string name="Search">Search</string>
+    <string name="Search1">Select area</string>
+    <string name="Search2">Select dan grading</string>
+    <string name="Search3">Custom Search</string>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

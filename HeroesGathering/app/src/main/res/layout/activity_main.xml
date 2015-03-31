@@ -15,7 +15,8 @@
         android:text="@string/buttonSearch"
         android:id="@+id/buttonSearch"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/buttonGroups" />
+        android:layout_toEndOf="@+id/buttonGroups"
+        android:background="#fffff470"/>
 
     <Button
         android:layout_width="82dp"
@@ -23,7 +24,8 @@
         android:text="@string/buttonGroups"
         android:id="@+id/buttonGroups"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#fffff470" />
 
     <Button
         android:layout_width="84dp"
@@ -31,7 +33,8 @@
         android:text="@string/buttonFriends"
         android:id="@+id/buttonFriends"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/buttonSearch" />
+        android:layout_toEndOf="@+id/buttonSearch"
+        android:background="#fffff470"/>
 
 
     <Button
@@ -40,7 +43,8 @@
         android:text="@string/buttonMe"
         android:id="@+id/buttonMe"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="#fffff470"/>
 
     <fragment
         android:layout_width="match_parent"
