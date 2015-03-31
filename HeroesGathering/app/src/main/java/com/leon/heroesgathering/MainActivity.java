@@ -1,5 +1,6 @@
 package com.leon.heroesgathering;
 
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,7 +9,11 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity
+    implements MeFragment.OnMeFragmentInteractionListener,
+    SearchFragment.OnSearchFragmentInteractionListener,
+    GroupFragment.OnGroupFragmentInteractionListener,
+    FriendFragment.OnFriendFragmentInteractionListener{
 
     private Button buttonGroups;
     private Button buttonSearch;
@@ -106,5 +111,8 @@ public class MainActivity extends ActionBarActivity {
             getFragmentManager().popBackStack();
         else
             super.onBackPressed();
+    }
+
+        public void onFragmentInteraction(Uri uri){
     }
 }

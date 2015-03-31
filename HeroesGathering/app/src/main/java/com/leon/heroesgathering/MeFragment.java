@@ -12,12 +12,12 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link MeFragment.OnFragmentInteractionListener} interface
+ * {@link MeFragment.OnMeFragmentInteractionListener} interface
  * to handle interaction events.
  */
 public class MeFragment extends Fragment {
 
-    private OnFragmentInteractionListener mListener;
+    private OnMeFragmentInteractionListener mListener;
 
     public MeFragment() {
         // Required empty public constructor
@@ -42,7 +42,7 @@ public class MeFragment extends Fragment {
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         try {
-            mListener = (OnFragmentInteractionListener) activity;
+            mListener = (OnMeFragmentInteractionListener) activity;
         } catch (ClassCastException e) {
             throw new ClassCastException(activity.toString()
                     + " must implement OnFragmentInteractionListener");
@@ -65,7 +65,7 @@ public class MeFragment extends Fragment {
      * "http://developer.android.com/training/basics/fragments/communicating.html"
      * >Communicating with Other Fragments</a> for more information.
      */
-    public interface OnFragmentInteractionListener {
+    public interface OnMeFragmentInteractionListener {
         // TODO: Update argument type and name
         public void onFragmentInteraction(Uri uri);
     }
