@@ -1,13 +1,12 @@
 package com.leon.heroesgathering;
 
 import android.net.Uri;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
 
 
 public class MainActivity extends ActionBarActivity
@@ -40,12 +39,12 @@ public class MainActivity extends ActionBarActivity
         myAccountButton = (Button)findViewById(R.id.MyAccountButton);
         recordButton = (Button)findViewById(R.id.RecordButton);
         stateButton = (Button)findViewById(R.id.StateButton);
-
+/*
         getFragmentManager()
                 .beginTransaction()
                 .add(R.id.fragment, new MeFragment())
                 .commit();
-
+*/
         buttonGroups.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -89,7 +88,7 @@ public class MainActivity extends ActionBarActivity
                         .commit();
             }
         });
-
+/*
         loanButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -132,7 +131,7 @@ public class MainActivity extends ActionBarActivity
                         .addToBackStack(null)
                         .commit();
             }
-        });
+        });*/
     }
 
 
