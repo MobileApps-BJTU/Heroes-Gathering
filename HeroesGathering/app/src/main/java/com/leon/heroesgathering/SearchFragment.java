@@ -1,12 +1,14 @@
 package com.leon.heroesgathering;
 
 import android.app.Activity;
+import android.app.Fragment;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -28,8 +30,49 @@ public class SearchFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        View v = inflater.inflate(R.layout.fragment_search, container,false);
+        Button button = (Button)v.findViewById(R.id.button);
+
+        button.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(getActivity(),AreaActivity.class);
+                        startActivity(intent);
+
+                    }
+                }
+        );
+
+        Button button1 = (Button)v.findViewById(R.id.button2);
+
+        button1.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(getActivity(),DanGradingActivity.class);
+                        startActivity(intent);
+
+                    }
+                }
+        );
+
+        Button button2 = (Button)v.findViewById(R.id.button3);
+
+        button2.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(getActivity(),CustomActivity.class);
+                        startActivity(intent);
+
+                    }
+                }
+        );
+
         return inflater.inflate(R.layout.fragment_search, container, false);
     }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AreaActivity"
+            android:label="@string/title_activity_area" >
+        </activity>
+        <activity
+            android:name=".DanGradingActivity"
+            android:label="@string/title_activity_dan_grading" >
+        </activity>
+        <activity
+            android:name=".CustomActivity"
+            android:label="@string/title_activity_custom" >
+        </activity>
     </application>
 
 </manifest>
