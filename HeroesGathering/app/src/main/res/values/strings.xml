@@ -11,7 +11,13 @@
     <string name="Search2">Select dan grading</string>
     <string name="Search3">Custom Search</string>
 
-<!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="deleteTitle">Delete</string>
+    <string name="deleteFriend">Delete this friend?</string>
+    <string name="leaveTitle">Leave</string>
+    <string name="leaveGroup">Leave this group?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 
+    <string name="messageTitle">Message</string>
+    <string name="message">Developing...</string>
 </resources>

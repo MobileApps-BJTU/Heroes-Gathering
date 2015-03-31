@@ -12,4 +12,13 @@
     <string name="Search2">选择段位</string>
     <string name="Search3">自定义搜索</string>
 
+    <string name="deleteTitle">删除</string>
+    <string name="deleteFriend">删除这个好友?</string>
+    <string name="leaveTitle">退出</string>
+    <string name="leaveGroup">退出该群组?</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="messageTitle">信息</string>
+    <string name="message">开发中...</string>
 </resources>
