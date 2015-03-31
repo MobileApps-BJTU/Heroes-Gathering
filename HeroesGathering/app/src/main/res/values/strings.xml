@@ -38,9 +38,21 @@
 
     <string name="messageTitle">Message</string>
     <string name="message">Developing...</string>
+<<<<<<< HEAD
     <string name="title_activity_area">AreaActivity</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_dan_grading">DanGradingActivity</string>
     <string name="title_activity_custom">CustomActivity</string>
+=======
+
+    <string name="Name">Name：Uzi </string>
+    <string name="Healthy">Healthy：LEVEL 2 </string>
+    <string name="Sign">Sign：Nice！ </string>
+
+    <string name="loan">Loan</string>
+    <string name="myAccount">My Account</string>
+    <string name="record">Record</string>
+    <string name="state">State</string>
+>>>>>>> origin/prototype
 </resources>

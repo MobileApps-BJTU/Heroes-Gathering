@@ -1,16 +1,17 @@
 package com.leon.heroesgathering;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.net.Uri;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link android.app.Fragment} subclass.
  * Activities that contain this fragment must implement the
  * {@link MeFragment.OnMeFragmentInteractionListener} interface
  * to handle interaction events.
@@ -18,6 +19,10 @@ import android.view.ViewGroup;
 public class MeFragment extends Fragment {
 
     private OnMeFragmentInteractionListener mListener;
+    private Button myAccountButton ;
+    private Button recordButton;
+    private Button stateButton;
+    private Button loanButton;
 
     public MeFragment() {
         // Required empty public constructor
@@ -27,7 +32,6 @@ public class MeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_me, container, false);
     }
 
